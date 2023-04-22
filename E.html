@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Запрос на удаление данных с приложения</title>
+</head>
+<body>
+	<header>
+		<h1>Запрос на удаление данных с приложения</h1>
+	</header>
+	<main>
+	<form action="delete_data.php" method="POST">
+		<label for="name">Имя:</label><br>
+		<input type="text" id="name" name="name" required><br><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br><br>
+
+		<label for="reason">Причина удаления:</label><br>
+		<textarea id="reason" name="reason" required></textarea><br><br>
+
+		<button type="submit">Отправить</button>
+	</form>
+</main>
+
+<footer>
+	<p>Все права защищены &copy; 2023</p>
+</footer>
+</body>
+</html>
